@@ -1,0 +1,48 @@
+body {
+  background-color: steelblue;
+}
+
+.laptop {
+  height: 180px;
+  width: 260px;
+  background: #fff;
+  border: 4px solid black;
+  border-radius: 20px 20px 0 0;
+  margin: 0 auto;
+  border-top: 11px solid black;
+}
+.keyboard {
+  width: 260px;
+  height: 188px;
+  border-bottom: 81px solid #d6e0f0;
+  border-right: 40px solid transparent;
+  position: relative;
+}
+.keyboard:after {
+  content: "";
+  position: absolute;
+  width: 299px;
+  top: 190px;
+  height: 77px;
+  border-bottom: 16px solid #d1e5d4;
+  border-right: 0px solid transparent;
+}
+.keyboard:before {
+  content: "";
+  position: absolute;
+  width: 74px;
+  top: 156px;
+  height: 68px;
+  border-bottom: 33px solid #b5d4ba;
+  border-right: 0px solid transparent;
+  right: 89px;
+}
+
+.keys {
+  width: 213px;
+  height: 187px;
+  border-bottom: 32px solid black;
+  position: absolute;
+  right: 27px;
+  top: 2px;
+}
